@@ -1,0 +1,35 @@
+:root {
+    --red: rgb(191, 31, 31);
+    --green: rgb(86, 204, 122);
+    --lightBlue: rgb(111, 202, 233);
+    --black: rgb(29, 26, 26);
+}
+body {
+    margin: 50px 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: var(--green);
+    text-align: center;
+    background-color: var(--black);
+}
+main {
+    font-size: 1.5em;
+}
+main > section {
+    margin-top: 100px;
+}
+.nav-links {
+    color: var(--green);
+    text-decoration: none;
+    border: 2px solid var(--green);
+    padding: 1em;
+    border-radius: 15px;
+    transition: all 100ms ease-in-out;
+}
+.nav-links:hover, .nav-links:focus {
+    background-color: var(--green);
+    color: white;
+}
+main > h2 {
+    color: var(--red);
+}
